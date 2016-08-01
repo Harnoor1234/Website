@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link href="../static/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+{% extends "layout.html" %}
+{% block content %}
+<h1 class= "title-super">
+<h2>
+<font color="white">
+<div class="row">
+<div class="col-md-4">
+<br><br>
+<img src= {{ url_for('static', filename = 'css/harnoor.jpg') }} width="200" height="200" alt="previous" title="Previous" border="0" class="img-responsive img-circle" >
+</div>
+<div class="col-md-8 text-justify text-font-main">
+<font face="verdana" size = "4">
+<br><br>
+<br><br>
+<p>I'm a current Masters student at Columbia University. I completed my Bachelor's degree from Jaypee Institute of Information Technology,India. I am currently interning at Duro UAS, an NYC startup focused on building eco drones to collect data in complex urban environments.</p>
+Courses - Computer Networks, Machine Learning, Big Data Analytics, Computer Architecture
+<br><br>
+<p>Interests - Software Development, Network Engineering, Machine Learning, Big Data Analytics, App Development</p>
+Hobbies - Playing Tennis and Soccer, Reading Books, Trekking and Mountaineering.</font>
+</div>
+</h2>
+{% endblock %}
+</body>
+</html>
+
+
